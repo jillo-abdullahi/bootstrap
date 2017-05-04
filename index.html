@@ -111,7 +111,7 @@
 	</table>
 	<h4>Use contextual classes to color table rows</h4>
 	<!--Use the .table-responsive class to make a responsive table-->
-	<div class="table-respnsive">
+	<div class="table-responsive">
 	<table class="table table-striped table-bordered table-hover table-condensed">
 	  <thead>
 	    <tr>
@@ -154,7 +154,70 @@
 	  </tbody>
 	</table>
 	</div>
-  </div>
+	<h3>Bootstrap Images</h3>
+	<!--Add the .img-responsive class to images to make them responsive-->
+	<div class="row">
+	  <!--Rounded corner images-->
+	  <div class="col-xs-4">
+	    <img class="img-rounded img-responsive" src="./images/batman.jpg" alt="Awesome Batman"
+	    width="304" height="236">
+	  </div>
+	  <!--Circular image-->
+	  <div class="col-xs-4">
+	  <img class="img-rounded img-responsive" src="./images/bestfriend.jpg" alt="My best friends"
+	  width="304" height="236">
+	  </div>
+	  <!--Thumbnail-->
+	  <div class="col-xs-4">
+	  <img class="img-thumbnail img-responsive" src="./images/agree.jpg" alt="Agree or die"
+	  width="304" height="236">
+	  </div>
+	  </div>
+	  <h4>Image Gallery</h4>
+	  <div class="row">
+	  
+	  <!--Create an image gallery using the thumbnail class-->
+	    <div class="col-xs-4">
+		  <div class="thumbnail">
+			<a href="./images/audi.jpg">
+			  <img src="./images/audi.jpg" alt="A cool Audi">
+			  <div class="caption">
+			    <p>Cool yellow Audi.</p>
+			  </div>
+			</a>
+		  </div>
+		  </div>
+		  <div class="col-xs-4">
+		    <div class="thumbnail">
+			  <a href="./images/mclaren.jpg">
+			    <img src="./images/mclaren.jpg" alt="A cool Mclaren">
+			    <div class="caption">
+			      <p>Cool red McLaren.</p>
+			    </div>
+			  </a>
+		    </div>
+		  </div>
+		  <div class="col-xs-4">
+		    <div class="thumbnail">
+			  <a href="./images/corvette.jpg">
+			    <img src="./images/corvette.jpg" alt="A cool Corvette">
+			      <div class="caption">
+			        <p>Cool red Corvette.</p>
+			    </div>
+			  </a>
+		    </div>
+		  </div>
+		
+		
+	  </div>
+	  
+	    <h3>Responsive Embed</h3>
+	    <p>Create a responsive video and scale it nicely to the parent element with an 16:9 aspect ratio</p>
+	    <div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DFKFnkP_sLQ"></iframe>
+		</div>
+	  </div>
+  
   </body>
   
 </html>
