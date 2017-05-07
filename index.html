@@ -401,9 +401,67 @@
       <span class="label label-info">Info Label</span>
       <span class="label label-warning">Warning Label</span>
       <span class="label label-danger">Danger Label</span>
+	  
+	  <h3>Bootstrap Progress Bars</h3>
+	  <!--Use the .progress class on a <div>-->
+	  <div class="progress">
+	    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"style="width:70%">
+		  <span class="sr-only">70% Complete</span>
+		</div>
+	  </div>
+	  <h5>Progress bar with label</h5>
+	  <!--remove the .sr-only class from the span-->
+	  <div class="progress">
+	    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"style="width:80%">
+		  <span>80%</span>
+		</div>
+	  </div>
+	  <h5>Using contextual classes on progress bars</h5>
+	  <!--Use .progress-bar-striped to make a striped progress bar-->
+	  <!--add .active class to animate a progress bar-->
+	  <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40"
+       aria-valuemin="0" aria-valuemax="100" style="width:40%">
+       40% Complete (success)
+       </div>
+       </div>
+
+       <div class="progress">
+       <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50"
+         aria-valuemin="0" aria-valuemax="100" style="width:50%">
+        50% Complete (info)
+       </div>
+       </div>
+
+       <div class="progress">
+       <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+        aria-valuemin="0" aria-valuemax="100" style="width:60%">
+        60% Complete (warning)
+       </div>
+       </div>
+
+       <div class="progress">
+       <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+       aria-valuemin="0" aria-valuemax="100" style="width:70%">
+       70% Complete (danger)
+      </div>
+     </div>
+	 <h5>Stacked Progress bar</h5>
+	 <div class="progress">
+	   <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+	     <span>40%</span>
+	   </div>
+	   <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+	     <span>20%</span>
+	   </div>
+	   <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 20%">
+	     <span>20%</span>
+	   </div>
+	 
+	 </div>
+	  
 	</div>
-	<a></a>
-	<a></a>
+	
   
   </body>
   
